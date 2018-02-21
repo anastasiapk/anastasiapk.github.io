@@ -125,3 +125,19 @@ div.desc {
     
 }
 
+
+
+
+
+
+.joey {
+background-image: url(giphy2.gif);
+height: 700px;
+width: auto;
+margin-top: 50px;
+margin-left: 50px; 
+margin-right: 50px;
+background-position: 0 0;
+background-size: contain;
+background-repeat: no-repeat;
+}
