@@ -53,7 +53,7 @@ body {
 
     
 a:link {
-    color: skyblue; 
+    color: white; 
     background-color: transparent; 
     text-decoration: none;
     margin-top: 125px;
@@ -67,7 +67,7 @@ a:visited {
 }
 
 a:hover {
-    color: red;
+    color: lightblue;
     background-color: transparent;
     text-decoration: overline;
     margin-top: 125px;
