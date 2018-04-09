@@ -1,0 +1,39 @@
+
+body {
+    background-color: slategray;
+}
+
+
+h1 {
+    color: white;
+    margin-left: center;
+    margin-right: center;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 10vw;
+}
+
+
+p {
+    color: white;
+    display: inline;
+    margin-left: center;
+    margin-right: center;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 20vw;
+    text-decoration: none;
+    
+}
+
+#colons {
+    color: white;
+    display: inline;
+    margin-left: center;
+    margin-right: center;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 20vw;
+    text-decoration: none;
+    
+}
