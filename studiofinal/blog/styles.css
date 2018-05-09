@@ -1,0 +1,283 @@
+/* Typography - GOOGLE FONTS OPTIONS:
+
+font-family: 'Anton', sans-serif;
+font-family: 'Electrolize', sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Sarala', sans-serif;
+font-family: 'Varela', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+
+/*    h1 {    font-family: 'Roboto', sans-serif;}   */
+h3 {    font-family: 'Roboto', sans-serif;}
+p  {    font-family: 'Roboto', sans-serif;}
+
+
+
+
+
+/*
+body {
+    
+    background-image: url("1.jpg"); 
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    cursor: help;
+    
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: fixed; 
+    margin: 0;
+
+
+    min-width: 100%;
+    min-height: 100%;
+}
+*/
+
+
+
+h1 {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 110px;
+    position: fixed; 
+}
+
+
+
+h2 {    
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.3vw;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+    position: static;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* Navigation bar */
+
+
+
+/* Add background color to top navigation */
+.nav {
+    background-color: transparent;
+    position: fixed;
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+/*    margin-top: 30px;*/
+
+/*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+*/
+    
+}
+
+/* Style links inside navigation bar */
+.nav ul a {
+/*    float: left;*/
+/*    display: block;*/
+    color: #000;
+    text-align: left;
+/*    padding: 14px 16px;*/
+    font-size: 5.3vw;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    
+
+
+}
+
+/* Changing color of links on hover */
+.nav a:hover {
+    background-color: transparent;
+    background:transparent;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Adding color to the active/current link */
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+.alphabet {
+    margin: 0;
+    font-family: 'Electrolize', sans-serif;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+/*    padding: 0;*/
+/*    width: 25%;*/
+    background-color: #ffffff  
+     position: fixed;
+/*    height: 100%;*/
+    overflow: auto;
+    font-family: 'Electrolize', sans-serif;
+    color: #000;
+}
+
+li a {
+    display: block;
+    color: #000;
+/*    padding: 8px 16px; */
+    text-decoration: none;
+    font-family: 'Electrolize', sans-serif;
+}
+
+li a.active {
+    background-color: #000000;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: 	transparent;
+    font-family: 'Electrolize', sans-serif;
+}
+
+
+
+
+
+
+
+/* zzzzooommmm */
+
+
+
+.zoom {
+    padding: 90px;
+    background-image: url('img/whitenoiseinv.jpg');
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
+
+
+/* full screen */
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* collage */
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+/*    padding-left: 40px;*/
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
